@@ -66,3 +66,6 @@ class Exerecise5 {
         System.out.println(isTrue);
     }
 }
+class Exercise6{
+
+}
