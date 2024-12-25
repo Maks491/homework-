@@ -28,8 +28,10 @@ public class Lesson3 {
         Lesson3 thirteen = new Lesson3();
         thirteen.square();
         Lesson3 fourteen = new Lesson3();
-        fourteen.arr(3, 8);
-
+        int[] result = fourteen.arr(8, 1);
+        for (int print : result) {
+            System.out.print(print + " ");
+        }
 
 
     }
@@ -163,12 +165,10 @@ public class Lesson3 {
         int arrgue[] = new int[len];
         for (int i = 0; i < arrgue.length; i++) {
             arrgue[i] = initialValue;
-        }
 
-
-        for (int j = 0; j < arrgue.length; j++) {
-            System.out.print(arrgue[j] + " ");
         }
         return arrgue;
+
+
     }
 }
