@@ -1,15 +1,13 @@
 package Lesson_5;
 
 public class Cat extends Animal {
-    String name;
     static int countCat;
     int appetite;
     boolean satiety;
     int maxDistance = 200;
 
     public Cat(String name, int appetite, boolean satiety) {
-        this.name = name;
-
+        super(name);
         this.satiety = satiety;
         this.appetite = appetite;
         countCat++;

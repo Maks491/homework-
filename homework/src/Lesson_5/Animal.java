@@ -1,9 +1,11 @@
 package Lesson_5;
 
 public class Animal {
+    String name;
     static int countAnimal;
 
-    public Animal() {
+    public Animal(String name ) {
+        this.name=name;
         countAnimal++;
     }
 

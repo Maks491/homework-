@@ -1,15 +1,13 @@
 package Lesson_5;
 
 public class Dog extends Animal {
-    String name;
     static int countDog;
     int maxDistance = 500;
     int maxSwim = 10;
 
     public Dog(String name) {
-
+        super(name);
         countDog++;
-        this.name = name;
 
 
     }
