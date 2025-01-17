@@ -10,7 +10,7 @@ public class Animal {
     }
 
     public void run(int distance) {
-        System.out.println("animal have run" + distance + "m");
+        System.out.println("animal have run " + distance + "m");
 
     }
 

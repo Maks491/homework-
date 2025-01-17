@@ -23,7 +23,7 @@ bobik.run(700);
                 System.out.println("cat" + " " + cats[i].name + " " + "ate");
             } else {
 
-                System.out.println("cat" + " " + cats[i].name + " " + "is hungry");
+                System.out.println("cat" + " " + cats[i].name + " " + " is hungry");
             }
 
         }
